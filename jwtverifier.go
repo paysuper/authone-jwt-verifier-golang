@@ -6,11 +6,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/internal"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage/memory"
 	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/lestrrat-go/jwx/jws"
+	"github.com/paysuper/authone-jwt-verifier-golang/internal"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage/memory"
 	"golang.org/x/net/context/ctxhttp"
 	"golang.org/x/oauth2"
 	"io"
@@ -43,7 +43,7 @@ type Config struct {
 	// Scope specifies optional requested permissions.
 	Scopes []string
 
-	// Issuer is the domain where ProtocolOne authorization server is located.
+	// Issuer is the domain where paysuper authorization server is located.
 	// Without a slash at the end of the line, this is important.
 	Issuer string
 

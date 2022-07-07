@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/ProtocolONE/authone-jwt-verifier-golang"
 	"github.com/labstack/echo/v4"
+	"github.com/paysuper/authone-jwt-verifier-golang"
 	"net/http"
 	"regexp"
 )

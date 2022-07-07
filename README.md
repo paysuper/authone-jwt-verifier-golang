@@ -1,16 +1,16 @@
 # AuthOne JWT verifier for Go
 
-[![Build Status](https://travis-ci.org/ProtocolONE/authone-jwt-verifier-golang.svg?branch=master)](https://travis-ci.org/ProtocolONE/authone-jwt-verifier-golang) [![codecov](https://codecov.io/gh/ProtocolONE/authone-jwt-verifier-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/ProtocolONE/authone-jwt-verifier-golang) [![Go Report Card](https://goreportcard.com/badge/github.com/ProtocolONE/authone-jwt-verifier-golang)](https://goreportcard.com/report/github.com/ProtocolONE/authone-jwt-verifier-golang)
+[![Build Status](https://travis-ci.org/paysuper/authone-jwt-verifier-golang.svg?branch=master)](https://travis-ci.org/paysuper/authone-jwt-verifier-golang) [![codecov](https://codecov.io/gh/paysuper/authone-jwt-verifier-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/paysuper/authone-jwt-verifier-golang) [![Go Report Card](https://goreportcard.com/badge/github.com/paysuper/authone-jwt-verifier-golang)](https://goreportcard.com/report/github.com/paysuper/authone-jwt-verifier-golang)
 
 # Overview
 
-This component contains helper methods for working with authentication in ProtocolOne projects. Also, based on these 
+This component contains helper methods for working with authentication in paysuper projects. Also, based on these 
 methods, middleware is implemented to verify authentication in the Echo framework.
 
 # Installation
 
 ```
-go get -u github.com/ProtocolONE/authone-jwt-verifier-golang
+go get -u github.com/paysuper/authone-jwt-verifier-golang
 ```
 
 # Usage 

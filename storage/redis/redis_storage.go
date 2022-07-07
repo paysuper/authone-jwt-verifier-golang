@@ -3,8 +3,8 @@ package redis
 import (
 	"errors"
 	"fmt"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage"
 	"github.com/go-redis/redis"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage"
 	"time"
 )
 

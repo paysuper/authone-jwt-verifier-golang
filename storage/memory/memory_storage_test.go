@@ -2,7 +2,7 @@ package memory
 
 import (
 	"fmt"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage"
 	"testing"
 	"time"
 )

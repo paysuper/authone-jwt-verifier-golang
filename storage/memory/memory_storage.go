@@ -2,8 +2,8 @@ package memory
 
 import (
 	"errors"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage"
 	"time"
 )
 

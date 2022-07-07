@@ -4,7 +4,7 @@ The application demonstrates basic authorization scenarios and environment setti
 
 # Prerequisites
 
-You will need an [auth1](https://github.com/ProtocolONE/auth1.protocol.one) and 
+You will need an [auth1](https://github.com/paysuper/auth1.protocol.one) and 
 [ORY Hydra](https://github.com/ory/hydra) authorization server to operate.
 
 Download Hydra and edit docker-compose.yml if necessary. The main thing you may need to 
@@ -64,7 +64,7 @@ conf := jwtverifier.Config{
 }
 ``` 
 
-Issuer is the domain where ProtocolOne authorization server is located (without a slash at the end of the line, 
+Issuer is the domain where paysuper authorization server is located (without a slash at the end of the line, 
 this is important). Change the domain name and port, if necessary.
 
 Almost everything's ready.)

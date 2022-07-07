@@ -2,8 +2,8 @@ package redis
 
 import (
 	"fmt"
-	"github.com/ProtocolONE/authone-jwt-verifier-golang/storage"
 	"github.com/go-redis/redis"
+	"github.com/paysuper/authone-jwt-verifier-golang/storage"
 	"testing"
 	"time"
 )

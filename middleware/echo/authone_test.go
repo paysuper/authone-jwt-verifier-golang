@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/ProtocolONE/authone-jwt-verifier-golang"
 	_ "github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
 	_ "github.com/lestrrat-go/jwx/jwt"
+	"github.com/paysuper/authone-jwt-verifier-golang"
 	"github.com/stretchr/testify/assert"
 	_ "github.com/stretchr/testify/assert"
 	"net/http"
